@@ -1,0 +1,14 @@
+﻿@using VOD.Common.DTOModels
+@model IEnumerable<DownloadDTO>
+
+<ul id="download-list">
+    @foreach (var download in Model)
+    {
+        <li>
+            <a href="@download.DownloadUrl" target="_blank">
+                <i class="material-icons">save_alt</i>
+                <span>&nbsp;@download.DownloadTitle</span>
+            </a>
+        </li>
+    }
+</ul>
