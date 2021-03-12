@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using VOD.Common.Entities;
 
 namespace VOD.Common.DTOModels
 {
@@ -11,5 +12,8 @@ namespace VOD.Common.DTOModels
         public string CourseDescription { get; set; }
         public string MarqueeImageUrl { get; set; }
         public string CourseImageUrl { get; set; }
+        public int InstructorId { get; set; }
+        public string Instructor { get; set; }
+        public List<ModuleDTO> Modules { get; set; }
     }
 }

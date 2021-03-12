@@ -21,10 +21,9 @@ namespace VOD.Database.Services
         public async Task<List<TEntity>> GetAsync<TEntity>() where TEntity : class
         {
             return await _db.Set<TEntity>().ToListAsync();
-        }
+        }     
 
-        public async Task<List<TEntity>> GetAsync<TEntity>(Expression<Func<TEntity, bool>> expression) 
-            where TEntity : class
+        public async Task<List<TEntity>> GetAsync<TEntity>(Expression<Func<TEntity, bool>> expression) where TEntity : class
         {
             return await _db.Set<TEntity>().Where(expression).ToListAsync();
         }
@@ -47,9 +46,7 @@ namespace VOD.Database.Services
                 _db.Set<TEntity>().Include(name).Load();
         }
 
-        public void Include<TEntity1, TEntity2>()
-            where TEntity1 : class
-            where TEntity2 : class
+        public void Include<TEntity1, TEntity2>() where TEntity1 : class where TEntity2 : class
         {
             Include<TEntity1>();
             Include<TEntity2>();

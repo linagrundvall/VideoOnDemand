@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VOD.UI", "VOD.UI\VOD.UI.csproj", "{58C44E6C-59E7-4449-93EA-BBC645B799B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VOD.UI", "VOD.UI\VOD.UI.csproj", "{58C44E6C-59E7-4449-93EA-BBC645B799B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VOD.Common", "VOD.Common\VOD.Common.csproj", "{2B0466C4-B6D0-4CD1-B014-2DEEBBAEA23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VOD.Common", "VOD.Common\VOD.Common.csproj", "{2B0466C4-B6D0-4CD1-B014-2DEEBBAEA23F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VOD.Database", "VOD.Database\VOD.Database.csproj", "{0F37C383-CC51-49C5-80C3-4B7CEB0EC407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VOD.Database", "VOD.Database\VOD.Database.csproj", "{0F37C383-CC51-49C5-80C3-4B7CEB0EC407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VOD.API", "VOD.API\VOD.API.csproj", "{C5F17AAB-90BF-4E1C-BCF0-DC1509B36853}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0F37C383-CC51-49C5-80C3-4B7CEB0EC407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F37C383-CC51-49C5-80C3-4B7CEB0EC407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F37C383-CC51-49C5-80C3-4B7CEB0EC407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F17AAB-90BF-4E1C-BCF0-DC1509B36853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F17AAB-90BF-4E1C-BCF0-DC1509B36853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F17AAB-90BF-4E1C-BCF0-DC1509B36853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F17AAB-90BF-4E1C-BCF0-DC1509B36853}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
